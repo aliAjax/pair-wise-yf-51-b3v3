@@ -59,6 +59,37 @@ header p, header small { color: #697880; margin: 0; }
 .term { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e4eaeb; padding: 9px 0; }
 .conflict { border: 1px solid #f0c98a; background: #fff9ef; border-radius: 9px; padding: 10px; margin-bottom: 8px; }
 .conflict p { margin: 6px 0; color: #6f685a; }
+.net-chip { border-radius: 99px; padding: 6px 12px; font-size: 13px; font-weight: 700; }
+.net-chip.online { background: #def5ee; color: #0f735f; }
+.net-chip.offline { background: #fde5e5; color: #a43838; }
+.offline-banner { border-radius: 10px; padding: 11px 15px; margin-bottom: 16px; font-size: 14px; background: #fde5e5; color: #8a2c2c; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.offline-banner.merge { background: #fff1d8; color: #8a5a10; }
+.badges { display: flex; gap: 5px; margin-top: 5px; flex-wrap: wrap; }
+.chip.pending { background: #e3eefc; color: #2b5f9e; }
+.chip.remote { background: #f0e7fc; color: #5b3fa0; }
+.chip.versions { background: #fde5e5; color: #a43838; }
+.chip.需修改 { background: #fde5e5; color: #a43838; }
+.cue.需修改 { border-left-color: #d94c4c; background: #fff7f7; }
+.pending-note { background: #e3eefc; color: #2b5f9e; border-radius: 7px; padding: 7px 10px; font-size: 12px; margin: 0 0 10px; }
+.pending-note.versions { background: #fde5e5; color: #a43838; }
+.term-error { color: #a43838; font-size: 12px; }
+.textarea.invalid { border-color: #d94c4c; background: #fff7f7; }
+.change-group { margin-top: 10px; display: grid; gap: 7px; }
+.change-group b { font-size: 12px; color: #718087; }
+.change-item { display: flex; align-items: center; gap: 8px; border: 1px solid #dde5e7; border-radius: 8px; padding: 7px 9px; background: #fbfdfd; }
+.change-item.remote { background: #f6f1ff; border-color: #d9cdf5; }
+.change-item p { margin: 0; flex: 1; font-size: 13px; color: #40535a; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.change-item small { color: #859198; font-size: 11px; white-space: nowrap; }
+.empty-note { color: #859198; font-size: 12px; margin: 8px 0 0; }
+.version-item { border: 1px solid #f0c98a; background: #fff9ef; border-radius: 9px; padding: 10px; margin-bottom: 8px; }
+.version-item p { margin: 8px 0; color: #40535a; font-size: 14px; }
+.version-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.version-head small { color: #859198; font-size: 11px; }
+.archive-item { border-bottom: 1px solid #e5ebec; padding-bottom: 8px; }
+.archive-item p { margin: 5px 0; color: #65757c; }
+.archive-item small { color: #849097; }
+.archive-item details { margin-top: 5px; font-size: 12px; color: #65757c; }
+.term-target { width: 110px; display: inline-block; padding: 5px 8px; margin-left: 6px; }
 .bottom-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 18px; margin-top: 18px; }
 .cue-form { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .cue-form .label:first-child, .cue-form .label:nth-child(2) { grid-column: span 1; }
